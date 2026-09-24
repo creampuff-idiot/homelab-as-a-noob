@@ -30,12 +30,15 @@ Trying.
 
 So far.
 
+## ZFS Pool
+2x 8tb Iron Wolf Pro NAS, named the pool icarus mirror, ashift 12, lz4, addtional storage ticked status is healthy.
+
 ## Progress log
 
 - [x] Sourced beepboop hardware
 - [x] Installed Proxmox VE
 - [x] Disabled enterprise repo, added no-subscription
-- [ ] Created ZFS mirror (`tank`, RAID1, ashift 12, lz4)
+- [x] Created ZFS mirror (`icarus`, RAID1, ashift 12, lz4, additonal storage)
 - [ ] Create non-root admin user
 - [ ] Set up backups
 - [ ] Migrate services from gregory (LXC vs Docker VM — TBD)
